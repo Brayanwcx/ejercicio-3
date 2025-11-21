@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brayan Perez">
+    <meta name="description" content="Portafolio profesional de Brayan Perez, Desarrollador Frontend">
+    <meta name="keywords" content="Brayan Perez, proyectos, articulos, contacto, HTML, CSS, JavaScript, Duitama">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Brayan Perez - Frontend Developer">
+    <meta property="og:description" content="Conoce el perfil profesional de Brayan Perez, Junior Frontend Developer con habilidades en HTML, CSS, JavaScript">
+    
+    <title>Brayan Perez - Frontend Developer</title>
+    
+    <link rel="stylesheet" href="ejercicio3.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Brayan <span>Perez</span></h1>
+            </div>
+            <nav>
+                <a href="#" data-page="home">Inicio</a>
+                <a href="#" data-page="projects">Proyectos</a>
+                <a href="#" data-page="articles">Artículos</a>
+                <a href="#" data-page="contact">Contacto</a>
+            </nav>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+        </div>
+    </header>
+
+    <!-- Página de Inicio -->
+    <section class="page active" id="home-page">
+        <div class="hero">
+            <div class="container">
+                <h1>Desarrollador Frontend</h1>
+                <p>HTML solo con diseño adecuado, sin estilos</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <table class="info-table">
+                <tr>
+                    <th>Sección</th>
+                    <th>Información</th>
+                </tr>
+                <tr>
+                    <td>Perfil</td>
+                    <td>Desarrollador Frontend — Brayan Perez</td>
+                </tr>
+                <tr>
+                    <td>Proyectos</td>
+                    <td>
+                        <ul>
+                            <li>Portafolio solo HTML</li>
+                            <li>Calculadora</li>
+                            <li>Aplicación de preguntas</li>
+                            <li>Temporizador</li>
+                            <li>Página de producto próxima</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Experiencia laboral</td>
+                    <td>
+                        <strong>HTML</strong><br>
+                        He completado todos los proyectos de frontend. <br>
+                        <strong>Trabajo en HTML</strong><br>
+                        Contribuí a mas de 50 proyectos y mis proyectos suman 100 estrellas en GitHub
+                    </td>
+                </tr>
+                <tr>
+                    <td>Educación</td>
+                    <td>
+                        Me gradué con honores del colegio<br>
+                        <strong>Asignaturas destacadas:</strong>
+                        <ul>
+                            <li>Matemáticas</li>
+                            <li>Español</li>
+                            <li>Informática</li>
+                            <li>Sociales</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Opiniones</td>
+                    <td>
+                        <ul>
+                            <li><strong>Daniel Florez</strong> — "Un estudiante brillante"</li>
+                            <li><strong>Alan Valderrama</strong> — "Buen dominio en tecnologías"</li>
+                            <li><strong>Aleandro Chica</strong> — "Buen estudiante"</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Sección de Reviews de Profesores -->
+            <section>
+                <h2>Reviews de Mis Profesores</h2>
+                <div class="card-container">
+                    <div class="review-card">
+                        <p class="review-text">"Buen estudiante"</p>
+                        <p class="review-author">Camilo</p>
+                        <p class="review-position">Profesor de Programación</p>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">"Buena programacion"</p>
+                        <p class="review-author">Luis</p>
+                        <p class="review-position">Profesor de Desarrollo Web</p>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">"Buen dominio del tema"</p>
+                        <p class="review-author">Miguel</p>
+                        <p class="review-position">Profesor de Algoritmos</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Página de Proyectos -->
+    <section class="page" id="projects-page">
+        <div class="container">
+            <a href="#" class="btn back-btn" data-page="home">← Volver al Inicio</a>
+            <h2>Proyectos</h2>
+            <p>A continuación algunos de mis proyectos destacados</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Portafolio solo HTML</h3>
+                    <p>Un sitio de portafolio construido únicamente con HTML, demostrando principios de accesibilidad</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Calculadora</h3>
+                    <p>Una calculadora funcional con operaciones aritméticas básicas e interfaz limpia e intuitiva.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Aplicación de preguntas</h3>
+                    <p>Una aplicación de cuestionarios interactiva con varios tipos de preguntas, seguimiento de puntuación y resumen de resultados.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Temporizador</h3>
+                    <p>Un temporizador personalizable con indicadores visuales y alertas para eventos importantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página de Artículos -->
+    <section class="page" id="articles-page">
+        <div class="container">
+            <a href="#" class="btn back-btn" data-page="home">← Volver al Inicio</a>
+            <h2>Artículos</h2>
+            <p>Artículos técnicos y tutoriales que he escrito sobre desarrollo:</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Introducción a los elementos semánticos en HTML</h3>
+                    <p>Aprende a usar elementos semánticos de HTML para crear sitios más accesibles y optimizados</p>
+                </div>
+                
+                <div class="card">
+                    <h3>CSS vs JS: ¿Cuándo usar cada uno?</h3>
+                    <p>Guía para entender las diferencias entre CSS y JS y cuándo emplear cada sistema de diseño</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Características de JavaScript que todo desarrollador debe conocer</h3>
+                    <p>Explora las características más importantes que modernizaron JavaScript</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Construyendo aplicaciones web accesibles</h3>
+                    <p>Buenas prácticas para crear aplicaciones web que sean usables por personas con discapacidad</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Optimizando el rendimiento</h3>
+                    <p>Técnicas y estrategias para mejorar la velocidad de carga y la capacidad de respuesta de aplicaciones web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Página de Contacto -->
+    <section class="page" id="contact-page">
+        <div class="container">
+            <a href="#" class="btn back-btn" data-page="home">← Volver al Inicio</a>
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes canales:</p>
+            
+            <div class="contact-info">
+                <ul>
+                    <li>Correo: brayanleo019@gmail.com</li>
+                    <li>Teléfono: +57 321 769 0981</li>
+                    <li>Ubicación: Duitama, Colombia</li>
+                    <li>GitHub: <a href="https://github.com/Brayanwcx">github.com/brayanperez</a></li>
+                    <li>Portafolio: <a href="#" data-page="home">brayanperez.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Brayan Perez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navegación entre páginas
+        document.querySelectorAll('[data-page]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetPage = this.getAttribute('data-page');
+                
+                // Ocultar todas las páginas
+                document.querySelectorAll('.page').forEach(page => {
+                    page.classList.remove('active');
+                });
+                
+                // Mostrar la página objetivo
+                document.getElementById(`${targetPage}-page`).classList.add('active');
+                
+               
+            });
+        });
+
+       
+
+   
+    </script>
+</body>
+</html>
